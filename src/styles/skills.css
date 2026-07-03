@@ -1,0 +1,219 @@
+.skills {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f2f1f1, #dfe7f8);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1e1e2f;
+  margin-bottom: 0.25rem;
+}
+
+.skills__subtitle {
+  font-size: 1.3rem;
+  color: #6b6b84;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container for grid layout */
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Each skill-meter horizontally aligned */
+.skill-meter {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  padding: 28px 30px;
+  box-shadow: 0 0px 10px rgba(99, 102, 241, 0.6);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.skill-meter:hover {
+  box-shadow: 0 20px 50px rgba(99, 102, 241, 0.25);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Circular percent meter */
+.circle {
+  --size: 100px;
+  --border: 10px;
+  --percent: 75%;
+  position: relative;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background: conic-gradient(
+    #6366f1 0%,
+    #6366f1 calc(var(--percent) * 1%),
+    #e0e7ff calc(var(--percent) * 1%),
+    #e0e7ff 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.2);
+  transition: background 0.5s ease;
+}
+
+.skill-meter:hover .circle {
+  animation: rotateProgress 1.2s linear forwards;
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  width: calc(var(--size) - var(--border) * 2);
+  height: calc(var(--size) - var(--border) * 2);
+  background: #f8f9ff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.skill-icon {
+  position: relative;
+  font-size: 2.5rem;
+  color: #4f46e5;
+  z-index: 2;
+}
+
+.skill-meter:hover .skill-icon {
+  transform: scale(1.15);
+  color: #3730a3;
+}
+
+.skill-level {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: #6366f1;
+  border-radius: 9999px;
+  color: #f8f9ff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 3px 7px;
+  /* user-select: none; */
+  z-index: 3;
+  transition: background-color 0.3s ease;
+}
+
+/* Skill info with name and description */
+.skill-info {
+  flex: 1;
+  text-align: left;
+}
+
+.skill-info h3 {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e1e2f;
+  transition: color 0.3s ease;
+}
+
+
+.skill-info p {
+  margin: 0;
+  font-size: 1rem;
+  color: #5c5c7b;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.skill-meter:hover .skill-info p {
+  color: #454545;
+}
+
+.skill-meter:hover .skill-level {
+  background-color: #4f46e5;
+}
+
+.skill-info {
+  flex: 1;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.skill-meter:hover .skill-info {
+  transform: translateX(6px);
+}
+.skill-meter:hover .skill-info h3 {
+  color: #3730a3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills__title {
+    font-size: 2.4rem;
+  }
+  .skills__subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  .skill-meter {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+  .skill-info {
+    text-align: center;
+  }
+}
+
+@keyframes rotateProgress {
+  from {
+    background: conic-gradient(
+      #6366f1 0%,
+      #6366f1 0%,
+      #e0e7ff 0%,
+      #e0e7ff 100%
+    );
+  }
+  to {
+    background: conic-gradient(
+      #6366f1 0%,
+      #6366f1 var(--percent),
+      #e0e7ff var(--percent),
+      #e0e7ff 100%
+    );
+  }
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  width: calc(var(--size) - var(--border) * 2);
+  height: calc(var(--size) - var(--border) * 2);
+  background: #f8f9ff;
+  border-radius: 50%;
+  z-index: 1;
+  transition: background 0.5s ease;
+}
+
+.skill-meter:hover .circle::before {
+  background: #ffffff;
+}
+
+.skill-icon {
+  position: relative;
+  font-size: 2.5rem;
+  color: #4f46e5;
+  z-index: 2;
+  transition: transform 0.3s ease, color 0.3s ease;
+}

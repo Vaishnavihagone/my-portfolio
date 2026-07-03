@@ -1,0 +1,136 @@
+:root {
+  --accent: #007aff;
+  --accent-light: #3296ff;
+  --text-dark: #1a1a1a;
+  --muted: #666;
+  --bg-white: rgba(255, 255, 255, 0.95);
+  --shadow: rgba(0, 122, 255, 0.35);
+  --transition: all 0.3s ease;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--bg-white);
+  webkit-backdrop-filter: saturate(180%) blur(12px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 14px 0;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.nav__container {
+  max-width: 1300px;
+  width: min(92%, 1300px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand Left */
+.nav__brand {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: 0.7px;
+  cursor: default;
+  /* user-select: none; */
+  transition: var(--transition);
+}
+
+.nav__brand:hover {
+  color: var(--accent);
+}
+
+/* Center Nav Links */
+.nav__links {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav__links a {
+  position: relative;
+  color: var(--text-dark);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: var(--transition);
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.nav__links a:hover,
+.nav__links a.active {
+  color: var(--accent);
+}
+
+.nav__links a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  border-radius: 10px;
+  background: var(--accent);
+  transition: var(--transition);
+}
+
+.nav__links a:hover::after,
+.nav__links a.active::after {
+  width: 100%;
+}
+
+/* Right CTA Button */
+.nav__btn {
+  padding: 9px 22px;
+  background: linear-gradient(135deg, var(--accent-light), var(--accent));
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 18px var(--shadow);
+  transition: var(--transition);
+  /* user-select: none; */
+}
+
+.nav__btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px var(--shadow);
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .nav__links {
+    gap: 25px;
+  }
+
+  .nav__btn {
+    padding: 8px 18px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav__container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav__links {
+    flex-basis: 100%;
+    justify-content: space-around;
+  }
+
+  .nav__btn {
+    flex-basis: 100%;
+    text-align: center;
+    border-radius: 20px;
+  }
+}

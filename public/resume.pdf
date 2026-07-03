@@ -1,0 +1,250 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 3500 >>
+stream
+BT
+/F1 28 Tf
+50 750 Td
+(Vaishnavi Hagone) Tj
+ET
+BT
+/F1 14 Tf
+50 730 Td
+(Software Developer) Tj
+ET
+BT
+/F2 10 Tf
+50 710 Td
+(Pune, Maharashtra, India | +91 8999317296 | vaishnavihagone2001@gmail.com) Tj
+ET
+BT
+/F2 10 Tf
+50 698 Td
+(linkedin.com/in/vaishnavi-hagone21663821a | github.com/VaishnaviHagone) Tj
+ET
+BT
+/F1 12 Tf
+50 675 Td
+(Professional Summary) Tj
+ET
+BT
+/F2 10 Tf
+50 660 Td
+(Results-driven Software Developer with 1.5+ years of experience in developing scalable mobile and web) Tj
+ET
+BT
+/F2 10 Tf
+50 648 Td
+(applications using React Native, React.js, and Spring Boot. Skilled in full-stack development, REST API) Tj
+ET
+BT
+/F2 10 Tf
+50 636 Td
+(integration, responsive UI design, reusable component architecture, and database management with strong) Tj
+ET
+BT
+/F2 10 Tf
+50 624 Td
+(focus on performance optimization and clean coding practices.) Tj
+ET
+BT
+/F1 12 Tf
+50 600 Td
+(Work Experience) Tj
+ET
+BT
+/F1 11 Tf
+50 583 Td
+(Software Developer | Scriptimiz Insight LLP) Tj
+ET
+BT
+/F2 10 Tf
+50 571 Td
+(Developed and maintained scalable cross-platform mobile and web applications using React Native,) Tj
+ET
+BT
+/F2 10 Tf
+50 559 Td
+(React.js, Spring Boot, and MySQL. Focused on React Native, React.js, Spring Boot, and MySQL.) Tj
+ET
+BT
+/F2 10 Tf
+50 547 Td
+(Designed responsive mobile and web interfaces with reusable components and optimized application) Tj
+ET
+BT
+/F2 10 Tf
+50 535 Td
+(performance.) Tj
+ET
+BT
+/F2 10 Tf
+50 523 Td
+(Integrated REST APIs and improved backend connectivity for seamless data handling and smooth user) Tj
+ET
+BT
+/F2 10 Tf
+50 511 Td
+(experience.) Tj
+ET
+BT
+/F2 10 Tf
+50 499 Td
+(Collaborated with cross-functional teams in Agile development environments including testing,) Tj
+ET
+BT
+/F2 10 Tf
+50 487 Td
+(debugging, deployment, and feature enhancement.) Tj
+ET
+BT
+/F2 10 Tf
+50 475 Td
+(Delivered multiple production-level applications:) Tj
+ET
+BT
+/F1 10 Tf
+70 460 Td
+(o Restaurant Management Application (SwadNidhi)) Tj
+ET
+BT
+/F2 9.5 Tf
+85 447 Td
+(Tech Stack: React Native, Spring Boot, MySQL) Tj
+ET
+BT
+/F2 9.5 Tf
+85 437 Td
+(Live Project: https://swadnidhi.scriptimiz.com) Tj
+ET
+BT
+/F2 9.5 Tf
+85 427 Td
+(Food ordering and restaurant management platform with menu management, cart functionality,) Tj
+ET
+BT
+/F2 9.5 Tf
+85 417 Td
+(order processing, admin dashboard, and responsive UI for web and mobile.) Tj
+ET
+BT
+/F1 10 Tf
+70 400 Td
+(o E-Commerce Application) Tj
+ET
+BT
+/F2 9.5 Tf
+85 387 Td
+(Tech Stack: React Native, Spring Boot, MySQL) Tj
+ET
+BT
+/F2 9.5 Tf
+85 377 Td
+(Online shopping platform with product catalog, inventory management, responsive UI, shopping) Tj
+ET
+BT
+/F2 9.5 Tf
+85 367 Td
+(cart, checkout, order tracking, and REST API integration.) Tj
+ET
+BT
+/F1 10 Tf
+70 350 Td
+(o TaskFlow Management System) Tj
+ET
+BT
+/F2 9.5 Tf
+85 337 Td
+(Workflow platform with task assignment, role-based access control, progress tracking, and team) Tj
+ET
+BT
+/F2 9.5 Tf
+85 327 Td
+(collaboration features.) Tj
+ET
+BT
+/F1 12 Tf
+50 305 Td
+(Technical Skills) Tj
+ET
+BT
+/F2 10 Tf
+50 290 Td
+(Languages: Java, JavaScript, C, C++) Tj
+ET
+BT
+/F2 10 Tf
+50 278 Td
+(Frontend: React.js, Angular, HTML5, CSS3) Tj
+ET
+BT
+/F2 10 Tf
+50 266 Td
+(Mobile: React Native, Expo) Tj
+ET
+BT
+/F2 10 Tf
+50 254 Td
+(Backend: Spring Boot, Node.js, REST APIs) Tj
+ET
+BT
+/F2 10 Tf
+50 242 Td
+(Database: MySQL) Tj
+ET
+BT
+/F2 10 Tf
+50 230 Td
+(Tools: Git, GitLab, Postman, VS Code, MySQL Workbench) Tj
+ET
+BT
+/F1 12 Tf
+50 207 Td
+(Education) Tj
+ET
+BT
+/F1 11 Tf
+50 190 Td
+(Bapurao Deshmukh College of Engineering, RTMNU) Tj
+ET
+BT
+/F2 10 Tf
+50 178 Td
+(Bachelor of Engineering in Computer Engineering | 2019 - 2023) Tj
+ET
+BT
+/F2 10 Tf
+50 166 Td
+(CGPA: 73.89%) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000229 00000 n 
+0000000320 00000 n 
+0000000412 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3964
+%%EOF
