@@ -1,12 +1,5 @@
 import "../styles/skills.css";
-import {
-  FaReact,
-  FaNodeJs,
-  FaJava,
-  FaFigma,
-  FaHtml5,
-  FaCss3Alt,
-} from "react-icons/fa";
+import { FaReact, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiJavascript, SiSpringboot, SiMysql, SiAngular } from "react-icons/si";
 
 const skills = [
